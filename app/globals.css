@@ -2,25 +2,68 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0a0a0a;
+  --brand-orange: #E93F0A;
+  --brand-black: #0a0a0a;
+  --brand-grey: #6b7280;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-brand-orange: var(--brand-orange);
+  --color-brand-black: var(--brand-black);
+  --color-brand-grey: var(--brand-grey);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base font sizes - responsive - ENFORCED ON ALL ELEMENTS */
+/* Mobile: 14px */
+body *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(h1 *):not(h2 *):not(h3 *):not(h4 *):not(h5 *):not(h6 *) {
+  font-size: 14px !important;
+}
+
+/* Reasonable heading sizes */
+h1 { font-size: 2.5rem !important; } /* 40px */
+h2 { font-size: 2rem !important; } /* 32px */
+h3 { font-size: 1.75rem !important; } /* 28px */
+h4 { font-size: 1.5rem !important; } /* 24px */
+h5 { font-size: 1.25rem !important; } /* 20px */
+h6 { font-size: 1rem !important; } /* 16px */
+
+@media (min-width: 768px) {
+  h1 { font-size: 3rem !important; } /* 48px */
+  h2 { font-size: 2.25rem !important; } /* 36px */
+  h3 { font-size: 2rem !important; } /* 32px */
+}
+
+@media (min-width: 1024px) {
+  h1 { font-size: 3.5rem !important; } /* 56px */
+  h2 { font-size: 2.5rem !important; } /* 40px */
+  h3 { font-size: 2.25rem !important; } /* 36px */
+}
+
+/* Tablet and up: 16px */
+@media (min-width: 768px) {
+  body *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(h1 *):not(h2 *):not(h3 *):not(h4 *):not(h5 *):not(h6 *) {
+    font-size: 16px !important;
+  }
+}
+
+/* Desktop and up: 18px */
+@media (min-width: 1024px) {
+  body *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(h1 *):not(h2 *):not(h3 *):not(h4 *):not(h5 *):not(h6 *) {
+    font-size: 18px !important;
+  }
 }
