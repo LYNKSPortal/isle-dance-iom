@@ -27,7 +27,7 @@ export const metadata: Metadata = {
       "Book your place at Isle Dance cheerdance workshops with Bethany Rushby. 19th July 2026 at The Roundhouse Sports Hall, Isle of Man.",
     images: [
       {
-        url: "/people-dancing.jpg",
+        url: "/facebook-meta-twitter.jpg",
         width: 1200,
         height: 630,
         alt: "Isle Dance cheerdance workshop with Bethany Rushby",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Dance Workshops | Isle Dance",
     description:
       "Book your place at Isle Dance cheerdance workshops with Bethany Rushby. 19th July 2026 at The Roundhouse Sports Hall, Isle of Man.",
-    images: ["/people-dancing.jpg"],
+    images: ["/facebook-meta-twitter.jpg"],
   },
 };
 

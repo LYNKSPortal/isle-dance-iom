@@ -60,7 +60,7 @@ export const metadata: Metadata = {
       "Isle Dance is the Isle of Man's vibrant community dance brand. Join cheerdance workshops, buy official merchandise, and be part of a growing local dance movement.",
     images: [
       {
-        url: "/people-dancing.jpg",
+        url: "/facebook-meta-twitter.jpg",
         width: 1200,
         height: 630,
         alt: "Isle Dance – people dancing together in the Isle of Man",
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     title: "Isle Dance | Community Dance Events in Isle of Man",
     description:
       "Isle Dance is the Isle of Man's vibrant community dance brand. Join cheerdance workshops, buy official merchandise, and be part of a growing local dance movement.",
-    images: ["/people-dancing.jpg"],
+    images: ["/facebook-meta-twitter.jpg"],
   },
 };
 

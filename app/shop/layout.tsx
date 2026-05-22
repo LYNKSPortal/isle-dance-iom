@@ -27,7 +27,7 @@ export const metadata: Metadata = {
       "Buy official Isle Dance merchandise. Hoodies, T-shirts and water bottles. Made to order and collected from Douglas, Isle of Man.",
     images: [
       {
-        url: "/people-dancing.jpg",
+        url: "/facebook-meta-twitter.jpg",
         width: 1200,
         height: 630,
         alt: "Isle Dance official merchandise",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Shop – Official Merchandise | Isle Dance",
     description:
       "Buy official Isle Dance merchandise. Hoodies, T-shirts and water bottles. Made to order and collected from Douglas, Isle of Man.",
-    images: ["/people-dancing.jpg"],
+    images: ["/facebook-meta-twitter.jpg"],
   },
 };
 

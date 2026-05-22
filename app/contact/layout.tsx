@@ -26,7 +26,7 @@ export const metadata: Metadata = {
       "Get in touch with Isle Dance. Email us, WhatsApp us, or send a message online. Isle of Man dance community.",
     images: [
       {
-        url: "/people-dancing.jpg",
+        url: "/facebook-meta-twitter.jpg",
         width: 1200,
         height: 630,
         alt: "Contact Isle Dance – Isle of Man dance community",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: "Contact Us | Isle Dance",
     description:
       "Get in touch with Isle Dance. Email us, WhatsApp us, or send a message online. Isle of Man dance community.",
-    images: ["/people-dancing.jpg"],
+    images: ["/facebook-meta-twitter.jpg"],
   },
 };
 
