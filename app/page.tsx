@@ -145,7 +145,7 @@ export default function Home() {
                 <div className="flex flex-wrap gap-4 text-gray-300 mb-4">
                   <div className="flex items-center gap-2">
                     <Calendar className="w-5 h-5 text-[#E93F0A]" />
-                    <span>19th July 2025</span>
+                    <span>19th July 2026</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <MapPin className="w-5 h-5 text-[#E93F0A]" />

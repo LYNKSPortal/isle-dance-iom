@@ -167,7 +167,7 @@ export default function Workshops() {
                       <Calendar className="w-5 h-5 text-[#E93F0A] mt-1" />
                       <div>
                         <div className="font-semibold text-black">Date</div>
-                        <div className="text-gray-600">19th July 2025</div>
+                        <div className="text-gray-600">19th July 2026</div>
                       </div>
                     </div>
 
@@ -404,7 +404,7 @@ export default function Workshops() {
                       <Calendar className="w-5 h-5 text-[#E93F0A] mt-1" />
                       <div>
                         <div className="font-semibold text-black">Date</div>
-                        <div className="text-gray-600">19th July 2025</div>
+                        <div className="text-gray-600">19th July 2026</div>
                       </div>
                     </div>
 
