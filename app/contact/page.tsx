@@ -356,7 +356,12 @@ export default function Contact() {
               <h3 className="text-white font-bold mb-4 text-lg">Policies</h3>
               <ul className="space-y-2 text-gray-400 text-sm">
                 <li>
-                  <a href="/policies/Health-and-Safety-Policy.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  <a href="/policies/General%20Information%20JULY%202026.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                    General Information
+                  </a>
+                </li>
+                <li>
+                  <a href="/policies/Health%20and%20Safety%20Policy%20JULY%202026.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                     Health and Safety Policy
                   </a>
                 </li>
@@ -371,17 +376,22 @@ export default function Contact() {
                   </a>
                 </li>
                 <li>
-                  <a href="/policies/Privacy-Policy.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  <a href="/policies/PRIVACY%20POLICY%20JULY%202026.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="/policies/Risk-Assessment-Policy.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  <a href="/policies/Risk%20Assessment%20Policy%20JULY%202026.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                     Risk Assessment Policy
                   </a>
                 </li>
                 <li>
-                  <a href="/policies/Safe-Guarding.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  <a href="/policies/Rules%20and%20Regulations%20JULY%202026.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                    Rules and Regulations
+                  </a>
+                </li>
+                <li>
+                  <a href="/policies/Safeguarding%20JULY%202026.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                     Safeguarding Policy
                   </a>
                 </li>
