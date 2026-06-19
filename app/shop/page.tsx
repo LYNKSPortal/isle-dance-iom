@@ -873,11 +873,6 @@ export default function Shop() {
                     Safeguarding Policy
                   </a>
                 </li>
-                <li>
-                  <a href="/policies/Terms-and-Conditions.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-                    Terms and Conditions
-                  </a>
-                </li>
               </ul>
             </div>
 
